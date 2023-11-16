@@ -1,0 +1,28 @@
+.task-row {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    background-color: #F26A8D;
+    color: white;
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+.task-row input {
+    margin: 5px;
+}
+
+.task-row p {
+    width: 453px;
+}
+
+.trash-icon {
+    margin: 5px;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
