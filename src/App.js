@@ -2,6 +2,7 @@ import {nanoid} from 'nanoid'
 import {useState} from "react";
 import Task from "./components/Task";
 import "./App.css"
+import NoTaskImage from './img/no-task.png';
 
 function App() {
     const [taskList, setTaskList] = useState([]);
@@ -66,7 +67,7 @@ function App() {
                 </div>
                 :
                 <div className="empty-tasks">
-                    <img className="no-task-img" src='./no-task.png' alt="No task"/>
+                    <img className="no-task-img" src={NoTaskImage} alt="No task"/>
                     <p>There are no tasks</p>
                 </div>
             }
